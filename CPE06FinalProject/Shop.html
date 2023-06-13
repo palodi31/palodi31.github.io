@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BER.PH</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Shop.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    
+    <div class="scope" data-aos="fade-down">
+        <ul>
+            <h2>
+                <li><a href="Homepage.html">Homepage</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="Registration.html">Register</a></li>
+                <li><a href="post-product.html">Sell Product</a></li>
+                <li><a href="About.html">About</a></li>
+            </h2>
+        </ul>
+        
+    </div>
+    <br>
+
+    <div class="banner" style="background-image: url(Images/Background2.jpg)"></div>
+    <br>
+    <div class="container">
+        <div class="product-list">
+            <div class="product-item1">
+                <a href="IndiPictures/p1.html">
+                    <img class="product-image" src="Images/RTX2.png" alt="Product 1">
+                </a>
+                <div class="product-name">NVIDIA GEFORCE RTX 4090</div>
+                <div class="product-price">40,000 PHP</div>
+                <div>
+                    <a href="IndiProductInfo/product1.html" class="info">Product Info.</a>
+                    &emsp;
+                    <a href="IndiProductInfo/product1.html" class="seller">Seller Info.</a>
+                </div>
+                <br>
+                <div class="buttons">
+                    <button class="add-to-cart-button" onclick="addToCart('NVIDIA GEFORCE RTX 4090', 'Images/RTX2.png', 1000)"><span></span>Add to Cart</button>
+                    <a class="button-font" href="BuyProd/CheckoutForm.html"><button class="buy-now">Buy Now</button></a>
+                </div>
+            </div>
+        <div class="product-item2">
+            <a href="IndiPictures/p2.html">
+            <img class="product-image" src="Images/Ryzen.png" alt="Product 2">
+            </a>
+            <div class="product-name">AMD Ryzen 5 5500</div>
+            <div class="product-price">15,000 PHP</div>
+            <div ><a href="IndiProductInfo/product2.html" class="info">Product Info.</a>
+                &emsp;<a href="IndiProductInfo/product1.html" class="seller">Seller Info.</a></div>
+            <br>
+            <div class="buttons">
+                <button class="add-to-cart-button" onclick="addToCart('AMD Ryzen 5 5500','Images/Ryzen.png',150)"><span></span>Add to Cart</button>
+                <a class="button-font" href="BuyProd/CheckoutForm.html"><button class="buy-now">Buy Now</button></a>
+                </div>
+        </div>
+        <div class="product-item3">
+            <a href="IndiPictures/p3.html">
+            <img class="product-image" src="Images/GTX.png" alt="Product 3">
+            </a>
+            <div class="product-name">Gigabyte GEFORCE GTX 1660</div>
+            <div class="product-price">15,000 PHP</div>
+            <div ><a href="IndiProductInfo/product3.html" class="info">Product Info.</a>
+                &emsp;<a href="IndiProductInfo/product1.html" class="seller">Seller Info.</a>
+            </div>
+            <br>
+            <div class="buttons">
+                <button class="add-to-cart-button" onclick="addToCart(product-item3)"><span></span>Add to Cart</button>
+                <a class="button-font" href="BuyProd/CheckoutForm.html"><button class="buy-now">Buy Now</button></a>
+                </div>
+        </div>
+    </div>
+    
+    <br><br>
+    <div class="product-list">
+        <!-- Product items go here -->
+        <div class="product-item4">
+            <a href="IndiPictures/p4.html">
+            <img class="product-image" src="Images/GamingKeyboard.png" alt="Product 1">
+            </a>
+            <div class="product-name">Inplay KS188 Mechanical Keyboard</div>
+            <div class="product-price">5,000 PHP</div>
+            <div ><a href="IndiProductInfo/product4.html" class="info">Product Info.</a>
+                &emsp;<a href="IndiProductInfo/product1.html" class="seller">Seller Info.</a></div>
+            <br>
+            <div class="buttons">
+                <button class="add-to-cart-button" onclick="addToCart(product-item4)"><span></span>Add to Cart</button>
+                <a class="button-font" href="BuyProd/CheckoutForm.html"><button class="buy-now">Buy Now</button></a>
+                </div>
+        </div>
+        <div class="product-item5">
+            <a href="IndiPictures/p5.html">
+            <img class="product-image" src="Images/MarvoMouse.png" alt="Product 2">
+            </a>
+            <div class="product-name">Marvo Mouse G941</div>
+            <div class="product-price">999 PHP</div>
+            <div ><a href="IndiProductInfo/product5.html" class="info">Product Info.</a>
+                &emsp;<a href="IndiProductInfo/product1.html" class="seller">Seller Info.</a></div>
+            <br>
+            <div class="buttons">
+                <button class="add-to-cart-button" onclick="addToCart(product-item5)"><span></span>Add to Cart</button>
+                <a class="button-font" href="BuyProd/CheckoutForm.html"><button class="buy-now">Buy Now</button></a>
+                </div>
+        </div>
+        <div class="product-item6">
+            <a href="IndiPictures/p6.html">
+            <img class="product-image" src="Images/CosmicByte.png" alt="Product 3">
+            </a>
+            <div class="product-name">Cosmic Byte G2050 Gaming Headset</div>
+            <div class="product-price">3,500 PHP</div>
+            <div ><a href="IndiProductInfo/product6.html" class="info">Product Info.</a>
+                &emsp;<a href="IndiProductInfo/product1.html" class="seller">Seller Info.</a></div>
+            <br>
+            <div class="buttons">
+                <button class="add-to-cart-button" onclick="addToCart(product-item6)"><span></span>Add to Cart</button>
+                <a class="button-font" href="BuyProd/CheckoutForm.html"><button class="buy-now">Buy Now</button></a>
+                </div>
+        </div>
+    </div>
+    <br><br>
+    
+    <div class="product-list">
+        <!-- Product items go here -->
+        <div class="product-item7">
+            <a href="IndiPictures/p7.html">
+            <img class="product-image" src="Images/Delta.png" alt="Product 1">
+            </a>
+            <div class="product-name">T-Force Delta TUF Gaming RGB</div>
+            <div class="product-price">9,999 PHP</div>
+            <div ><a href="IndiProductInfo/product7.html" class="info">Product Info.</a>
+                &emsp;<a href="IndiProductInfo/product1.html" class="seller">Seller Info.</a></div>
+            <br>
+            <div class="buttons">
+                <button class="add-to-cart-button"><span></span>Add to Cart</button>
+                <a class="button-font" href="BuyProd/CheckoutForm.html"><button class="buy-now">Buy Now</button></a>
+                </div>
+        </div>
+        <div class="product-item8">
+            <a href="IndiPictures/p8.html">
+            <img class="product-image" src="Images/Kingston.png" alt="Product 2">
+            </a>
+            <div class="product-name">Kingston SSD A400</div>
+            <div class="product-price">5,000 PHP</div>
+            <div ><a href="IndiProductInfo/product8.html" class="info">Product Info.</a>
+                &emsp;<a href="IndiProductInfo/product1.html" class="seller">Seller Info.</a></div>
+            <br>
+            <div class="buttons">
+                <button class="add-to-cart-button"><span></span>Add to Cart</button>
+                <a class="button-font" href="BuyProd/CheckoutForm.html"><button class="buy-now">Buy Now</button></a>
+                </div>
+        </div>
+        <div class="product-item9">
+            <a href="IndiPictures/p9.html">
+            <img class="product-image" src="Images/Hyperfury.png" alt="Product 3">
+            </a>    
+            <div class="product-name">HyperX Fury DDR4 RAM (8GB)</div>
+            <div class="product-price">6,000 PHP</div>
+            <div ><a href="IndiProductInfo/product9.html" class="info">Product Info.</a>
+                &emsp;<a href="IndiProductInfo/product1.html" class="seller">Seller Info.</a></div>
+            <br>
+            <div class="buttons">
+                <button class="add-to-cart-button"><span></span>Add to Cart</button>
+                <a class="button-font" href="BuyProd/CheckoutForm.html"><button class="buy-now">Buy Now</button></a>
+                </div>
+        </div>
+    </div>
+    <br><br>
+    <div class="product-list">
+        <!-- Product items go here -->
+        <div class="product-item10">
+            <a href="IndiPictures/p10.html">
+            <img class="product-image" src="Images/Asrock.png" alt="Product 1">
+            </a>
+            <div class="product-name">Asrock B450M Steel Legend AM4 Micro-ATX Motherboard</div>
+            <div class="product-price">8,000 PHP</div>
+            <div ><a href="IndiProductInfo/product10.html" class="info">Product Info.</a>
+                &emsp;<a href="IndiProductInfo/product1.html" class="seller">Seller Info.</a></div>
+            <br>
+            <div class="buttons">
+                <button class="add-to-cart-button"><span></span>Add to Cart</button>
+                <a class="button-font" href="BuyProd/CheckoutForm.html"><button class="buy-now">Buy Now</button></a>
+                </div>
+        </div>
+        <div class="product-item11">
+            <a href="IndiPictures/p11.html">
+            <img class="product-image" src="Images/Jonsbo.png" alt="Product 2">
+            </a>
+            <div class="product-name">Jonsbo CR1200 Tower RGB CPU Cooler Fan</div>
+            <div class="product-price">4,500 PHP</div>
+             <div ><a href="IndiProductInfo/product11.html" class="info">Product Info.</a>
+                &emsp;<a href="IndiProductInfo/product1.html" class="seller">Seller Info.</a></div>
+            
+            <br>
+            <div class="buttons">
+                <button class="add-to-cart-button"><span></span>Add to Cart</button>
+                <a class="button-font" href="BuyProd/CheckoutForm.html"><button class="buy-now">Buy Now</button></a>
+                </div>
+        </div>
+        <div class="product-item12">
+            <a href="IndiPictures/p12.html">
+            <img class="product-image" src="Images/Gigabyte.png" alt="Product 3">
+            </a>
+            <div class="product-name">Gigabyte 240 GB Solid State Drive</div>
+            <br>
+            <div class="product-price">5,999 PHP</div>
+            <div ><a href="IndiProductInfo/product12.html" class="info">Product Info.</a>
+                &emsp;<a href="IndiProductInfo/product1.html" class="seller">Seller Info.</a></div>
+            <br>
+            <div class="buttons">
+                <button class="add-to-cart-button"><span></span>Add to Cart</button>
+                <a class="button-font" href="BuyProd/CheckoutForm.html"><button class="buy-now">Buy Now</button></a>
+                </div>
+        </div>
+    </div>
+</div>
+    <br><br>
+    <footer>
+        <p>&copy; 2023 BER.PH. All rights reserved.</p>
+      </footer>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="Shop.js"></script>
+       
+    
+</body>
+</html>

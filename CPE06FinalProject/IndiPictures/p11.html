@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTX</title>
+    <style>
+        *{
+            margin:0px;
+            padding:px;
+            font-family: "Poppins", sans-serif;
+            color: rgb(0, 0, 0);
+        }
+        .image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .image img{
+            height: 35%;
+            width: 35%;
+        }
+        .scope{
+    width:100%;
+    margin: auto;
+    padding: 20px;
+    display:inline-block;
+    align-content: center;
+    justify-content:space-between;
+    text-align: left;
+    background-color:rgb(42, 42, 42);
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+}
+.scope ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.scope ul li a{
+    text-decoration:double;
+    color: rgb(0, 255, 153);
+    text-transform:uppercase;
+}
+.scope ul li ::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.scope ul li :hover:after{
+    width: 100%;
+}   
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    
+  }
+  #but {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+  }
+ #but:hover {
+    background-color: #f5f5f5;
+  }
+    </style>
+</head>
+<body>
+    <div class="scope">
+        <ul><h2>
+            <li><a href="/CPE06FinalProject/Homepage.html">Homepage</a></li>
+            <li><a href="/CPE06FinalProject/Shop.html">Shop</a></li>
+            <li><a href="/CPE06FinalProject/ProductInfo.html">Product Info</a></li>
+            <li><a href="/CPE06FinalProject/About.html">About</a></li>
+        </h2></ul>
+    </div>
+    <div class="image">
+    <img src="/CPE06FinalProject/Images/Jonsbo.png">
+    </div>
+    <div class="buttons">
+        <a href="/CPE06FinalProject/Shop.html" id="but">Go Back</a>
+        <a href="/CPE06FinalProject/BuyProd/CheckoutForm.html" id="but">Buy Now</a>
+    </div>
+</body>
+</html>

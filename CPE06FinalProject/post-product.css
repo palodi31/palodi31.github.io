@@ -1,0 +1,132 @@
+*{
+    color:#4caf50;
+    margin:0px;
+    padding:0px;
+    font-family: "Poppins", sans-serif;
+}
+.add-product-form {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top:0;
+    z-index: -1;
+    background-image: url(Images/Background2.jpg);
+  }
+  h1{
+    text-align: center;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  .buttons a {
+    text-decoration: none;
+    font-size: 13px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    background-color: #4caf50;
+  }
+  a:hover {
+    background-color: #3E8E41;
+    
+  }
+  .add-product-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .add-product-form label {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 25%;
+  }
+  
+  .add-product-form input[type="text"],
+  .add-product-form input[type="number"],
+  .add-product-form textarea,
+  .add-product-form select {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-left: 25%;
+    color:black;
+  }
+  
+  .add-product-form input[type="file"] {
+    margin-bottom: 20px;
+    margin-left: 25%;
+  }
+  
+  .add-product-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    width: 25%;
+    margin-left: 38%;
+    
+  }
+  
+  .add-product-form button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .add-product-form .form-group:last-child {
+    margin-bottom: 0;
+  }
+  .banner{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    z-index: -1;
+}
+.glass-footer {
+  position: relative;
+  z-index: 1;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.glass-footer .glasswrapper {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 25px;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  width: 99%;
+}
+  

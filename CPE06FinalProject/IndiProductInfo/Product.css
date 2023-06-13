@@ -1,0 +1,79 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+  }
+  h1 {
+    color: #333;
+  }
+  p {
+    font-size: 16px;
+    color: #666;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family:'Times New Roman', Times, serif;
+  }
+  img {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #f00;
+  }
+  .prodName{
+    align-content: center;
+    font-size: 60px;
+    background-color: rgb(45, 45, 45);
+    text-align: center;
+    padding: 10px;
+    border:solid #333;
+    border-radius: 30px;
+    color:chartreuse;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    cursor: pointer;
+  }
+  a:hover {
+    background-color: #f5f5f5;
+  }
+  .description{
+    font-size: 5.5mm;
+    text-align: justify;
+  }
+.advantages{
+  font-size: 8mm;
+  font-weight: bolder;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+}
+.flex-box{
+  margin-left: 20%;
+  margin-right:20%;
+  display: flex;
+  justify-content:space-around;
+  text-align: justify;
+}
+.item1{
+  width: 40%;
+}
+.item2{
+  width: 40%;
+}

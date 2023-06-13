@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Checkout</title>
+    <link rel="stylesheet" href="checkout.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="header">
+      <header class="header">
+      <h1><a class="font" href="/Shop.html">BER.PH</a></h1>
+      </header>
+      </div>
+    <h1>Checkout</h1>
+    <form action="Ber.php"  method="POST">
+      Name: <input type="text" name="name" required><br>
+      Address: <input type="text" name="address" required><br>
+      Email: <input type="text" name="email" required><br>
+      Contact Number: <input type="text" name="contact_number" required><br>
+      Please Select the Product that you Want to Buy:<br> 
+      <div class="productBought">
+      <select name="productBought" >
+        <option value="none"> </option>
+        <option value="NVIDIA GEFORCE RTX 4090">NVIDIA GEFORCE RTX 4090</option>
+        <option value="AMD Ryzen 5 5500">AMD Ryzen 5 5500</option>
+        <option value="Gigabyte GEFORCE GTX 1660">Gigabyte GEFORCE GTX 1660</option>
+        <option value="Inplay KS188 Mechanical Keyboard">Inplay KS188 Mechanical Keyboard</option>
+        <option value="Marvo Mouse G941">Marvo Mouse G941</option>
+        <option value="Cosmic Byte G2050 Gaming Headset">Cosmic Byte G2050 Gaming Headset</option>
+        <option value="T-Force Delta TUF Gaming RGB">T-Force Delta TUF Gaming RGB</option>
+        <option value="Kingston SSD A400">Kingston SSD A400</option>
+        <option value="HyperX Fury DDR4 RAM (8GB)">HyperX Fury DDR4 RAM (8GB)</option>
+        <option value="Asrock B450M Steel Legend AM4 Micro-ATX Motherboard">Asrock B450M Steel Legend AM4 Micro-ATX Motherboard</option>
+        <option value="Jonsbo CR1200 Tower RGB CPU Cooler Fan">Jonsbo CR1200 Tower RGB CPU Cooler Fan</option>
+        <option value="Gigabyte 240 GB Solid State Drive">Gigabyte 240 GB Solid State Drive</option>
+      </select>
+    </div>
+      <br>
+      Delivery Address:<input type="text" name="DeliveryAddress" required><br> 
+      
+      How was your Shopping Experience?<textarea  name="feedback" rows="5" cols="60"></textarea>
+        <br><br>
+        <a href="/Shop.html" input type="goBack" value="go-back" class="goBack">Go Back</a>
+        <br><br>
+        <input type="submit" name="submit" value="Submit">
+      </form>
+      
+  </body>
+</html>
