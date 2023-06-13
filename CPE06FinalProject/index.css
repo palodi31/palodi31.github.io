@@ -1,0 +1,272 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+.container .header .logo{
+  width: 100%;
+    max-width: fit-content;
+    height: 60px;
+}
+.container .header .logo .image{
+    max-width: fit-content;
+    width: 160px;
+    height: 100px;
+    margin-left: 3.5rem;
+    margin-top: 1.5rem;
+    border-radius: 20px;
+    opacity: 70%;
+    background-size: cover !important;
+}
+.header{
+    padding:1.5rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin:0px auto;
+    align-items: center;
+    color: white;
+    
+}
+
+.header ul{
+    display:flex;
+    list-style: none;
+    gap:7rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    position: relative;
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 8px 2px;
+}
+.header ul a{
+    text-decoration:double;
+    color: rgb(0, 255, 153);
+    text-transform:uppercase;
+    
+}
+.header ul a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.header ul a:hover::after{
+    width: 100%;
+}
+.banner{
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    z-index: -1;
+}
+.banner .glasswrapper{
+    width: 32%;
+    height: 100%;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px ); 
+}
+.texts{
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-top: 4rem;
+}
+.texts p{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 60px;
+    color: white;
+}
+.texts .shopName{
+    font-size: 67px;
+    letter-spacing: 3px;
+    
+}
+.texts .description{
+    width: 26%;
+    padding-top: 1rem;
+    font-weight:200;
+    letter-spacing: 1.5px;
+    padding-bottom: 1.5rem;
+    text-align: justify;
+}
+.texts .goToShop button{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: none;
+    color: white;
+    padding: 12px 50px;
+    border-radius: 45px;
+    letter-spacing: 1.5px;
+    cursor:pointer;
+}
+.hotItems{
+    bottom: 25px;
+    position: relative;
+    left: 35rem;
+}
+.hotItems p{
+    color: white;
+    padding-left: 20px;
+    margin-bottom: auto;
+    line-height: 24px;
+}
+.hotItems ul{
+    display: flex;
+    gap:20px;
+    list-style: none;
+    width: 65vw;
+    height: 15rem;
+    align-items: center;
+}
+.hotItems .thumbnail{
+    display: flex;
+    height: 10rem;
+    width: 18rem;
+    background-size: cover !important;
+    border-radius: 8px;
+    flex-direction: column;
+}
+
+.hotItems .thumbnail .details{
+    margin-top: auto;
+    padding: 10px 0px;
+    background: rgba( 38, 38, 38, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+}
+.hotItems .release{
+    font-size: 15px;
+    font-weight: 600;
+}
+.hotItems .item{
+    font-size: 14px;
+    font-weight: 300;
+}
+.hotItems .active{
+    margin-top: -5rem;
+}
+
+@media (max-width: 768px) {
+  .header ul {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  .header ul li {
+    display: block;
+    padding: 0;
+  }
+
+  .header ul a {
+    display: block;
+  }
+
+.banner{
+  height: 200vh;
+}
+.container .header .logo .image{
+  max-width: fit-content;
+  width: 100px;
+  height: 55px;
+  margin-left:0px;
+  margin-top: 1.5rem;
+  border-radius: 20px;
+  opacity: 70%;
+  background-size: cover !important;
+}
+
+  .banner .glasswrapper {
+    width: 35%;
+  }
+
+  .texts p {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .texts .shopName {
+    font-size: 40px;
+  }
+
+  .texts .description {
+    width: 50%;
+    font-size: 14px;
+  }
+
+  .hotItems {
+    top:8rem;
+    bottom: 25px;
+    position: relative;
+    left: auto;
+    width: 100%;
+    overflow-x: auto;
+    padding: 0 1rem;
+  }
+  
+  .hotItems ul {
+    display: flex;
+    flex-direction: column; /* Change the flex-direction to column */
+    gap: 20px;
+    list-style: none;
+    width: max-content;
+    height: max-content; /* Change the height to max-content */
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+  
+  .hotItems .thumbnail {
+    display: flex;
+    height: 10rem;
+    width: 18rem;
+    background-size: cover !important;
+    border-radius: 8px;
+    flex-direction: column;
+  }
+  
+  .hotItems .thumbnail .details {
+    margin-top: auto;
+    padding: 10px 0px;
+    background: rgba(38, 38, 38, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+  }
+  .hotItems .release {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .hotItems .item {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  .hotItems .active {
+    margin-top:0px;
+    margin-right:5rem;
+  }
+  
+  
+}
+
