@@ -1,6 +1,6 @@
 AOS.init(); 
 function addToCart(productName, productImage, productPrice) {
-    alert("Prodcut added!");
+    alert("Prouct added!");
     var cartItemsContainer = document.getElementById("cart-items");
   
     var cartItem = document.createElement("div");
@@ -31,5 +31,8 @@ function addToCart(productName, productImage, productPrice) {
     cartItemsContainer.appendChild(cartItem);
   }
   function addToCart(prodId){
-    alert("Product Added!")
+    alert("Product Added!");
+  }
+  function addToCart(){
+    alert("Product Added!");
   }
