@@ -30,4 +30,6 @@ function addToCart(productName, productImage, productPrice) {
   
     cartItemsContainer.appendChild(cartItem);
   }
-  
+  function addToCart(prodId){
+    alert("Product Added!")
+  }
